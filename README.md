@@ -11,7 +11,7 @@ Não haverá video.
 
 ##  Organização do Repositório
 
-```text
+   Text
 trabalho-p2-ed/
 ├── README.md               # Documentação teórica, Big-O, Diário de IA e LINK DO VÍDEO
 └── src/
@@ -19,5 +19,5 @@ trabalho-p2-ed/
     └── demo/
         ├── index.html      # Interface do simulador visual
         ├── styles.css      # Estilização da página e animações
-        └── app.js          # Lógica da simulação passo a passo
+        └── app.js          # Lógica da simulação passo a passo 
 
