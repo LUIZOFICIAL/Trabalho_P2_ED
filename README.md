@@ -40,4 +40,5 @@ Percursos (DFS/BFS),Θ(n),Θ(n),O(h) DFS / O(n) BFS
 
 Caso Médio: Ocorre quando os elementos são inseridos em ordem aleatória, mantendo a altura próxima de $\log_2 n$.
 Pior Caso: Ocorre quando os elementos são inseridos já ordenados (crescente ou decrescente), degenerando a BST em uma lista encadeada linear.
- Como Executar 1. Simulador Visual Interativo (Web)Não requer instalação de servidores ou dependências externas: Navegue até a pasta src/demo/.Abra o arquivo index.html diretamente em qualquer navegador moderno (Chrome, Edge, Firefox, Safari).
+
+ Como Executar: 1. Simulador Visual Interativo (Web)Não requer instalação de servidores ou dependências externas: Navegue até a pasta src/demo/.Abra o arquivo index.html diretamente em qualquer navegador moderno (Chrome, Edge, Firefox, Safari).
