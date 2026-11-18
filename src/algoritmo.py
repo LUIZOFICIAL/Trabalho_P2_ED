@@ -1,9 +1,11 @@
 ## Implementação de Referência (Python)Requer Python 3.8+:Bashpython src/algoritmo.py
- Diário de Uso de Inteligência ArtificialEtapaFerramenta / ModeloObjetivo do PromptValidação e Ajustes Realizados
-1. Arquitetura e UIGeminiGerar o simulador visual autocontido em HTML/CSS/JS com máquina de estados passo a passo, cenários didáticos e painel de métricas.Testados todos os casos de borda na interface: inserção duplicada, remoção da raiz com 2 filhos, pausa/retomada e velocidade da animação.
-2. ModularizaçãoGeminiSeparar a aplicação monolítica na estrutura oficial do repositório (index.html, styles.css, app.js) e criar algoritmo.py.Verificada a integridade dos caminhos relativos (styles.css e app.js) e executada a suíte unittest em Python para validar invariantes da BST.
-3. DocumentaçãoGeminiEstruturar a fundamentação teórica e tabela de complexidade assintótica no README.md.Revisadas as notações Big-O ($O(\log n)$ vs $O(n)$) e alinhada a terminologia com o material da disciplina.
----
+
+## Diário de Uso de Inteligência Artificial
+| Etapa | Ferramenta / Modelo | Objetivo do Prompt | Validação e Ajustes Realizados |
+| :--- | :---: | :--- | :--- |
+| **1. Arquitetura e UI** | Gemini | Gerar o simulador visual autocontido em HTML/CSS/JS com máquina de estados passo a passo, cenários didáticos e painel de métricas. | Testados todos os casos de borda na interface: inserção duplicada, remoção da raiz com 2 filhos, pausa/retomada e velocidade da animação. |
+| **2. Modularização** | Gemini | Separar a aplicação monolítica na estrutura oficial do repositório (`index.html`, `styles.css`, `app.js`) e criar `algoritmo.py`. | Verificada a integridade dos caminhos relativos (`styles.css` e `app.js`) e executada a suíte `unittest` em Python para validar invariantes da BST. |
+| **3. Documentação** | Gemini | Estruturar a fundamentação teórica, a tabela de complexidade assintótica (Big-O) e o diário de IA no `README.md`. | Revisadas as notações Big-O ($O(\log n)$ vs $O(n)$) e alinhada a terminologia com o material oficial da disciplina. |
 
 ### 2. `src/algoritmo.py`
 
