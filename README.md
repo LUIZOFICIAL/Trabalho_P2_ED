@@ -11,7 +11,7 @@ Não haverá video.
 
 ##  Organização do Repositório
 
-   Text
+```   Text
 trabalho-p2-ed/
 ├── README.md               # Documentação teórica, Big-O, Diário de IA e LINK DO VÍDEO
 └── src/
