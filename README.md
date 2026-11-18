@@ -32,7 +32,7 @@ Visita os elementos em ordem crescente.Pré-Ordem (Pre-Order — R, E, D): Útil
 Em Nível (Level-Order / BFS): Visita nível por nível utilizando uma fila (FIFO).
 
 ##  Análise de Complexidade Assintótica (Big-O)
-Onde $n$ é o número total de nós e $h$ é a altura da árvore:
+# Onde $n$ é o número total de nós e $h$ é a altura da árvore:
 Operação, "Caso Médio (Árvore Balanceada, h=⌊log2​n⌋)","Pior Caso (Árvore Degenerada, h=n−1)",Complexidade Espacial (Auxiliar)
 Busca, O(logn),O(n),O(1) iterativa / O(h) recursiva
 Inserção, O(logn),O(n),O(1) iterativa / O(h) recursiva
