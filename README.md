@@ -19,7 +19,8 @@ trabalho-p2-ed/
     └── demo/
         ├── index.html      # Interface do simulador visual
         ├── styles.css      # Estilização da página e animações
-        └── app.js          # Lógica da simulação passo a passo 
+        └── app.js          # Lógica da simulação passo a passo
+```
 
 ##  Fundamentação Teórica:
 Uma Árvore Binária de Busca (Binary Search Tree — BST) é uma estrutura de dados hierárquica baseada em nós na qual cada nó armazena uma chave (valor) e possui no máximo dois filhos: subárvore esquerda e subárvore direita.
