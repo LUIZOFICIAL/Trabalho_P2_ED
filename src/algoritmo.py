@@ -1,4 +1,4 @@
-Implementação de Referência (Python)Requer Python 3.8+:Bashpython src/algoritmo.py
+## Implementação de Referência (Python)Requer Python 3.8+:Bashpython src/algoritmo.py
  Diário de Uso de Inteligência ArtificialEtapaFerramenta / ModeloObjetivo do PromptValidação e Ajustes Realizados
 1. Arquitetura e UIGeminiGerar o simulador visual autocontido em HTML/CSS/JS com máquina de estados passo a passo, cenários didáticos e painel de métricas.Testados todos os casos de borda na interface: inserção duplicada, remoção da raiz com 2 filhos, pausa/retomada e velocidade da animação.
 2. ModularizaçãoGeminiSeparar a aplicação monolítica na estrutura oficial do repositório (index.html, styles.css, app.js) e criar algoritmo.py.Verificada a integridade dos caminhos relativos (styles.css e app.js) e executada a suíte unittest em Python para validar invariantes da BST.
