@@ -33,11 +33,12 @@ Em Nível (Level-Order / BFS): Visita nível por nível utilizando uma fila (FIF
 
 ##  Análise de Complexidade Assintótica (Big-O)
 # Onde $n$ é o número total de nós e $h$ é a altura da árvore:
-Operação, "Caso Médio (Árvore Balanceada, h=⌊log2​n⌋)","Pior Caso (Árvore Degenerada, h=n−1)",Complexidade Espacial (Auxiliar)
-Busca, O(logn),O(n),O(1) iterativa / O(h) recursiva
-Inserção, O(logn),O(n),O(1) iterativa / O(h) recursiva
-Remoção, O(logn),O(n),O(h) recursiva
-Percursos (DFS/BFS),Θ(n),Θ(n),O(h) DFS / O(n) BFS
+| Operação | Caso Médio (Árvore Balanceada) | Pior Caso (Árvore Degenerada) | Complexidade Espacial |
+| :--- | :---: | :---: | :---: |
+| **Busca** (`search`) | $O(\log n)$ | $O(n)$ | $O(1)$ |
+| **Inserção** (`insert`) | $O(\log n)$ | $O(n)$ | $O(1)$ |
+| **Remoção** (`delete`) | $O(\log n)$ | $O(n)$ | $O(h)$ |
+| **Percursos** (DFS/BFS) | $\Theta(n)$ | $\Theta(n)$ | $O(h)$ ou $O(n)$ |
 
 Caso Médio: Ocorre quando os elementos são inseridos em ordem aleatória, mantendo a altura próxima de $\log_2 n$.
 Pior Caso: Ocorre quando os elementos são inseridos já ordenados (crescente ou decrescente), degenerando a BST em uma lista encadeada linear.
