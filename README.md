@@ -1,5 +1,9 @@
 # Simulador Visual Interativo — Árvore Binária de Busca (BST)
 
+Nome: Luiz Filipi de Oliveira
+RA: 2840482521046
+Tema escolhido: Árvores Binárias de Busca (BST)
+
 Projeto desenvolvido para a disciplina de **Estruturas de Dados (Trabalho P2)**, contendo a implementação de referência em Python puro e um simulador visual interativo executado diretamente no navegador, com execução passo a passo, análise de estado e cenários didáticos.
 
 ---
